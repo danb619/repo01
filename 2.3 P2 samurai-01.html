@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by danb619 (http://jsbin.com/xuvihe/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="en">
+<head>
+<title>Samurai Pizza Cats - Captioned</title> 
+  <meta charset="utf-8"/>
+<style id="jsbin-css">
+::cue(v[voice="Narrator"]) {
+  color: #fff;
+}
+::cue(v[voice="Chorus"]) {
+  color: #ffc;
+}
+::cue(v[voice="Cat"]) {
+  color: #cff; 
+  font-style: italic;
+}
+::cue(v[voice="Director"]) {
+  color: #ccc;
+  font-style: italic;
+}
+::cue(v:future) {
+  opacity: 0.5;
+}
+video {
+  top: 5vh;
+  left: 5vw;
+  width: 90vw;
+  height: 90vh;
+}
+</style>
+</head>
+<body>
+<video controls crossorigin="anonymous"> 
+    <source src="https://mainline.i3s.unice.fr/mooc/week2p1/samurai-pizza-cats.webm" type="video/webm">
+	<source src="https://mainline.i3s.unice.fr/mooc/week2p1/samurai-pizza-cats.mp4" type="video/mp4">
+    <track src="http://0-dan-03.danqturn.com/samurai-pizza-cats.vtt" kind="captions" label="English" default>
+</video>
+  </body>
+</html>
